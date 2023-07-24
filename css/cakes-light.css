@@ -1,0 +1,161 @@
+body {
+  background: linear-gradient(70deg, #f1a4dd, #fffeeb);
+}
+
+.barre-acceuil {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 28px;
+  margin-block-end: -48px;
+  margin-inline-end: 31px;
+  margin-top: 52px;
+}
+
+.titre {
+  font-family: "Hanken Grotesk", sans-serif;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: -4px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 80px;
+  text-decoration: none;
+  font-weight: normal;
+  font: size 18px;
+}
+
+.encadrement-nav {
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+  border-left: transparent;
+  border-right: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  width: 168px;
+  margin-top: 17px;
+}
+
+.baniere a:hover {
+  color: white;
+}
+
+.image-gateau-acceuil {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-acceuil {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+.recette {
+  margin-top: 128px;
+  margin-left: 448px;
+  margin-bottom: 17px;
+  font-family: "Manrope";
+  font-size: 144%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.encadre-recherche {
+  display: inline-flex;
+  margin-top: 26px;
+  border: 2px solid;
+
+  background-color: white;
+  border-color: white;
+}
+
+.encadre-recherche button {
+  border-radius: 2px;
+  border: 1px solid;
+  outline: 0px;
+  overflow: hidden;
+  padding: 0.25rem 2rem;
+  height: 2.5rem;
+  font-family: VP Next, arial, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 23px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition-property: background-color, border-color, color;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+  background-color: rgb(249, 222, 237);
+  color: rgb(249, 222, 237);
+
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  min-width: 64px;
+  max-width: 64px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.encadre-recherche input {
+  height: 39px;
+  width: 278px;
+  border: 0;
+}
+.encadre-recherche input:focus {
+  outline: none;
+}
+
+.espace-recherche {
+  background-color: white;
+  border: none;
+}
+
+.img-loupe {
+  width: 20px;
+}
+.button-banner {
+  background-color: transparent;
+  color: black;
+  border: solid;
+  border-color: white;
+  width: 180px;
+  height: 47px;
+  cursor: pointer;
+  border-width: thin;
+}
+
+.button-banner:hover {
+  background-color: white;
+}
+
+.divfooter {
+}
+.footer {
+}
+
+p .divfooter {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CakesLight</title>
+    <link rel="stylesheet" href="css/cakes-light.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Montserrat:ital,wght@1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;300;400&family=Manrope:wght@200&family=Montserrat:ital,wght@1,100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="baniere">
+      <header>
+        <div class="barre-acceuil">
+          <a href="#">Qui sommes nous</a>
+
+          <input
+            class="button-banner"
+            type="button"
+            value="S'identifier"
+            onclick="redirection()"
+          />
+        </div>
+        <div class="titre">
+          <h1>CakesLight</h1>
+        </div>
+      </header>
+      <div class="encadrement-nav">
+        <nav>
+          <ul class="nav">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#lesrecettes">Les recettes</a></li>
+            <li><a href="#deposerecette">Dépose une recette</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <main>
+      <section id="recherche" class="text-center">
+        <div class="encadre-recherche">
+          <input type="search" placeholder="Chercher un gateau" name="search" />
+          <button><img class="img-loupe" src="assets/loupe.png" /></button>
+        </div>
+      </section>
+      <section id="accueil">
+        <h2 class="recette">Les dernières recettes</h2>
+        <div class="image-gateau-acceuil">
+          <img
+            class="img-acceuil"
+            src="assets/1cup-cake-fraise.jpg"
+            alt="cup-cake"
+          />
+
+          <img
+            class="img-acceuil"
+            src="assets/2foret-noir.jpg"
+            alt="foret-noir"
+          />
+
+          <img
+            class="img-acceuil"
+            src="assets/3gateau-blanc.jpg"
+            alt="gateau-blanc"
+          />
+
+          <img
+            class="img-acceuil"
+            src="assets/4cup-cake-choco.jpg"
+            alt="cup-cake-choco"
+          />
+
+          <img
+            class="img-acceuil"
+            src="assets/5gateau-fraise.jpg"
+            alt="gateau-fraise"
+          />
+
+          <img class="img-acceuil" src="assets/6donuts.jpg" alt="Donut" />
+
+          <img class="img-acceuil" src="assets/gateau7.jpg" alt="Donut" />
+
+          <img class="img-acceuil" src="assets/gateau8.jpg" alt="Donut" />
+        </div>
+      </section>
+
+      <section id="a-propos">
+        <h2>Section À propos</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc euismod
+          euismod elit, ac bibendum dolor porttitor id. Nulla facilisi. Nulla
+          facilisi.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Section Contact</h2>
+        <form>
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required />
+
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="divfooter">
+        <p>Recettes</p>
+        <div class="footer">
+          <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#a-propos">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <p>Catégories</p>
+        <div class="footer">
+          <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#a-propos">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <p>Partenaires</p>
+        <div class="footer">
+          <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#a-propos">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <p>&copy; 2023 Nom de votre entreprise. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>

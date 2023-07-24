@@ -1,0 +1,42 @@
+[
+  {
+    "nom": "Cupcake à la fraise",
+    "image": "assets/1cup-cake-fraise.jpg",
+    "description": "Un délicieux cupcake à la fraise."
+  },
+  {
+    "nom": "Forêt-noire",
+    "image": "assets/2foret-noir.jpg",
+    "description": "Un gâteau forêt-noire classique et délicieux."
+  },
+  {
+    "nom": "Gâteau blanc",
+    "image": "assets/3gateau-blanc.jpg",
+    "description": "Un gâteau blanc moelleux et léger."
+  },
+  {
+    "nom": "Cupcake au chocolat",
+    "image": "assets/4cup-cake-choco.jpg",
+    "description": "Un savoureux cupcake au chocolat."
+  },
+  {
+    "nom": "Gâteau à la fraise",
+    "image": "assets/5gateau-fraise.jpg",
+    "description": "Un gâteau délicieux à la fraise."
+  },
+  {
+    "nom": "Donut",
+    "image": "assets/6donuts.jpg",
+    "description": "Un délicieux donut glacé."
+  },
+  {
+    "nom": "Gâteau mystère",
+    "image": "assets/gateau7.jpg",
+    "description": "Un gâteau mystère à découvrir."
+  },
+  {
+    "nom": "Gâteau surprise",
+    "image": "assets/gateau8.jpg",
+    "description": "Un gâteau surprenant et délicieux."
+  }
+]
